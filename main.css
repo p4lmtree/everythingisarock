@@ -1,0 +1,52 @@
+h2 {
+  font-family: "Karla", sans-serif;
+    font-size: 14px;
+    margin-top: 123px;
+}
+
+p{
+    font-family: "Karla", sans-serif;
+    font-size: 10px;
+}
+
+
+q{
+    font-family: "GrandSlang-Italic";
+    font-size: 15px;
+    line-height: 10px;
+}
+
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 110px;
+  left: 10px;
+  overflow-x: hidden;
+  padding: 8px 0;
+    font-family: "Karla", sans-serif;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: papayawhip;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
