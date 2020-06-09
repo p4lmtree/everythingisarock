@@ -25,11 +25,16 @@ h3{
     font-size: 8px;
 }
 
+/**h:hover{
+    color: aqua;
+}**/
+
+
 .supertext{
     width: 130px;
   position: fixed;
   z-index: 1;
-  top: 110px;
+  top: 300px;
   right: 10px;
   overflow-x: hidden;
   padding: 8px 0;
@@ -76,4 +81,9 @@ h3{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+main img{
+    max-width: 10%;
+    max-height: 10%;
 }
