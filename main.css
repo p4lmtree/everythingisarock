@@ -25,6 +25,13 @@ h3{
     font-size: 8px;
 }
 
+footer{
+    font-family: "Karla", sans-serif;
+    font-size: 8px;
+    text-align: end;
+    margin: 10px;
+}
+
 /**h:hover{
     color: aqua;
 }**/
@@ -58,6 +65,7 @@ h3{
   overflow-x: hidden;
   padding: 8px 0;
     font-family: "Karla", sans-serif;
+    cursor: pointer;
 }
 
 .sidenav a {
@@ -68,13 +76,11 @@ h3{
   display: block;
 }
 
-.sidenav a:hover {
-  color: papayawhip;
-}
+
 
 .main {
   margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
+  font-size: 17px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
 
@@ -83,7 +89,11 @@ h3{
   .sidenav a {font-size: 18px;}
 }
 
-main img{
-    max-width: 10%;
-    max-height: 10%;
+body img{
+    max-width: 60%;
+    max-height: 60%;
+    align-content: auto;
+    margin: 100px;
 }
+
+
